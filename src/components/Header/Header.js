@@ -9,7 +9,7 @@ const Header = () => {
             background: `url(${bg})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
-        }} className='header'>
+        }} id='header'>
             <div className="container">
                 <nav>
                     <img src={logo} alt="" className='logo' />
